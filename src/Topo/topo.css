@@ -1,10 +1,10 @@
-h1{
+.Topo .titulo{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 67px;
     background-color: #C3CFD9;
     color: #E8833A;
-    font-size: 34px !important;
-    font-family: 'Roboto', sans-serif !important;
+    font-size: 34px;
+    font-family: 'Roboto', sans-serif;
 }
