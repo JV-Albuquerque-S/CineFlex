@@ -1,0 +1,89 @@
+.assentosConteudo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.TodosAssentos{
+    width: 327px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.assentoUnico{
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 18px;
+    width: 26px;
+    height: 26px;
+    border: 1px solid #808F9D;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disponivel{
+    background-color: #C3CFD9;
+}
+
+.indisponivel{
+    background-color: #FBE192;
+}
+
+.assentoExemplo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.verde{
+    width: 25px;
+    height: 25px;
+
+    background: #8DD7CF;
+    border: 1px solid #1AAE9E;
+    box-sizing: border-box;
+    border-radius: 17px;
+}
+
+.cinza{
+    width: 24px;
+    height: 24px;
+
+    background: #C3CFD9;
+    border: 1px solid #7B8B99;
+    box-sizing: border-box;
+    border-radius: 17px;
+}
+
+.amarelo{
+    width: 24px;
+    height: 24px;
+
+    background: #FBE192;
+    border: 1px solid #F7C52B;
+    box-sizing: border-box;
+    border-radius: 17px;
+}
+
+.primeiro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.segundo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.terceiro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
