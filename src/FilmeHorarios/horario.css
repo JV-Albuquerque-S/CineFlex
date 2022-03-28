@@ -1,0 +1,27 @@
+.horarioTexto{
+    font-size: 20px;
+    margin-left: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.botoes{
+    margin-top: 22px;
+    margin-bottom: 23px;
+    margin-left: 24px;
+}
+
+.botao{
+    width: 83px;
+    height: 43px;
+    border-radius: 3px;
+    background-color: #E8833A;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: none;
+    border: none;
+}
+
+.botao1{
+    margin-right: 8px;
+}

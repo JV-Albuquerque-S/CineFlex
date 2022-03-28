@@ -1,10 +1,11 @@
 import axios from "axios"
-import React from "react"
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function RenderFilmes(){
-    const [filmes, setFilmes] = React.useState([]);
+    const [filmes, setFilmes] = useState([]);
 
-    React.useEffect(() => {
+    useEffect(() => {
         const request = axios.get("https://mock-api.driven.com.br/api/v5/cineflex/movies");
         request.then(resposta => {setFilmes(resposta.data)})
     }, []);
@@ -15,7 +16,9 @@ export default function RenderFilmes(){
             <div className="listaFilmes">
                 {filmes.map(filme =>
                 <div className="posterBorda" key={filme.id}>
-                    <img src={filme.posterURL} alt="Poster" />
+                    <Link to={`/filme/${filme.id}`}>
+                        <img src={filme.posterURL} alt="Poster" />
+                    </Link>
                 </div>
                 )}
             </div>
