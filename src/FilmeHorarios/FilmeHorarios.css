@@ -4,6 +4,8 @@
     background-color: #DFE6ED;
     display: flex;
     align-items: center;
+    position: fixed;
+    bottom: 0;
 }
 
 .rodape img{

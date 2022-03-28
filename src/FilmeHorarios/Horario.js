@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 import "./horario.css"
 
 export default function Horario(props){
@@ -5,8 +7,8 @@ export default function Horario(props){
         <>
             <p className="horarioTexto">{props.weekday} - {props.date}</p>
             <div className="botoes">
-                <button className="botao botao1">{props.time1}</button>
-                <button className="botao">{props.time2}</button>
+                <Link to={`/sessao/${props.sessao1}`}><button className="botao botao1">{props.time1}</button></Link>
+                <Link to={`/sessao/${props.sessao2}`}><button className="botao botao1">{props.time2}</button></Link>
             </div>
         </>
     )
